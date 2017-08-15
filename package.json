@@ -1,0 +1,27 @@
+{
+  "name": "platzon",
+  "version": "0.1.0",
+  "description": "Traductor de idioma platzon",
+  "main": "dist/src/platzon.js",
+  "scripts": {
+    "build": "babel src/platzon.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/a4688d3e003f44fe42d12f18f2aab372.git"
+  },
+  "keywords": [
+    "platzon",
+    "javascript",
+    "js"
+  ],
+  "author": "John Serrano <jandreys15@gmail.com> (https://twitter.com/jandrey15)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
